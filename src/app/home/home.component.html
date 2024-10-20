@@ -1,0 +1,25 @@
+<app-search-container />
+<div *ngIf="movies" class="container">
+    <mat-card class="example-card" appearance="outlined" *ngFor="let movie of movies.slice(0, 10)">
+        <mat-card-header>
+            <div mat-card-avatar class="example-header-image" style="background-image:url('{{movie.photo}}')"></div>
+            <mat-card-title class="whiteText">{{movie.naziv}}</mat-card-title>
+            <mat-card-subtitle>Godina izlaska filma: {{movie.datumIzlaska}}</mat-card-subtitle>
+        </mat-card-header>
+        <img mat-card-image src={{movie.photo}} alt={{movie.naziv}} class="filmCover">
+        <mat-card-content>
+            <mat-list role="list">
+                <mat-list-item role="listitem">Trajanje: {{movie.trajanje}} minuta</mat-list-item>
+                <mat-list-item role="listitem">Reziser: {{movie.reziser}}</mat-list-item>
+                <mat-list-item role="listitem">Glavni glumci: {{movie.glumci[0]}},{{movie.glumci[1]}}</mat-list-item>
+            </mat-list>
+        </mat-card-content>
+        <mat-card-actions>
+            <a mat-button [routerLink]="['/movie/', movie.id]"><i class="fa-solid fa-circle-info"></i> Detaljnije o
+                filmu</a>
+            <a mat-button (click)="reserveTicket(movie, movie!.projekcije[0])"><i class="fa-solid fa-cart-plus"></i>
+                Rezervisi
+                kartu</a>
+        </mat-card-actions>
+    </mat-card>
+</div>

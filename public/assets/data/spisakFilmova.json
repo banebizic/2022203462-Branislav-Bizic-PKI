@@ -1,0 +1,197 @@
+[
+    {
+        "id": 1,
+        "naziv": "Apocalypse now",
+        "opis": "It is the height of the war in Vietnam, and U.S. Army Captain Willard is sent by Colonel Lucas and a General to carry out a mission that, officially, 'does not exist - nor will it ever exist'. The mission: To seek out a mysterious Green Beret Colonel, Walter Kurtz, whose army has crossed the border into Cambodia and is conducting hit-and-run missions against the Viet Cong and NVA. The army believes Kurtz has gone completely insane and Willard's job is to eliminate him. Willard, sent up the Nung River on a U.S. Navy patrol boat, discovers that his target is one of the most decorated officers in the U.S. Army. His crew meets up with surfer-type Lt-Colonel Kilgore, head of a U.S Army helicopter cavalry group which eliminates a Viet Cong outpost to provide an entry point into the Nung River. After some hair-raising encounters, in which some of his crew are killed, Willard, Lance and Chef reach Colonel Kurtz's outpost, beyond the Do Lung Bridge. Now, after becoming prisoners of Kurtz, will Willard & the others be able to fulfill their mission?",
+        "zanr": "War",
+        "trajanje": 147,
+        "reziser": "Francis Ford Coppola",
+        "glumci": ["Martin Sheen", "Marlon Brando"],
+        "datumIzlaska": 1979,
+        "projekcije": [
+            {"datum": "2023-10-10T20:00:00Z", "cena": 1000, "status": ""},
+            {"datum": "2023-10-12T18:00:00Z", "cena": 1000, "status": ""}
+        ],
+        "recenzije": [
+            {"korisnik": "Korisnik 1", "ocena": 5, "komentar": "Sjajan film!"},
+            {"korisnik": "Korisnik 2", "ocena": 4, "komentar": "Dobar film, ali mogao je biti bolji."},
+            {"korisnik": "Korisnik 3", "ocena": 5, "komentar": "Jedan od najboljih filmova ikada!"},
+            {"korisnik": "Korisnik 4", "ocena": 3, "komentar": "Predug, ali sa snažnom porukom."},
+            {"korisnik": "Korisnik 5", "ocena": 4, "komentar": "Fantastična režija i gluma!"}
+        ],
+        "photo": "/assets/img/apocalypse_now.jpg"
+    },
+    {
+        "id": 2,
+        "naziv": "Saving private Ryan",
+        "opis": "Opening with the Allied invasion of Normandy on 6 June 1944, members of the 2nd Ranger Battalion under Cpt. Miller fight ashore to secure a beachhead. Amidst the fighting, two brothers are killed in action. Earlier in New Guinea, a third brother is KIA. Their mother, Mrs. Ryan, is to receive all three of the grave telegrams on the same day. The United States Army Chief of Staff, George C. Marshall, is given an opportunity to alleviate some of her grief when he learns of a fourth brother, Private James Ryan, and decides to send out 8 men (Cpt. Miller and select members from 2nd Rangers) to find him and bring him back home to his mother..",
+        "zanr": "War",
+        "trajanje": 169,
+        "reziser": "Steven Spielberg",
+        "glumci": ["Tom Hanks", "Matt Damon"],
+        "datumIzlaska": 1998,
+        "projekcije": [
+            {"datum": "2023-10-12T18:00:00Z", "cena": 1200, "status": ""}
+        ],
+        "recenzije": [
+            {"korisnik": "Korisnik 1", "ocena": 5, "komentar": "Izvanredan ratni film!"},
+            {"korisnik": "Korisnik 2", "ocena": 4, "komentar": "Realistične scene bitaka."},
+            {"korisnik": "Korisnik 3", "ocena": 5, "komentar": "Tom Hanks je fantastičan!"},
+            {"korisnik": "Korisnik 4", "ocena": 3, "komentar": "Dobar, ali predugačak."},
+            {"korisnik": "Korisnik 5", "ocena": 4, "komentar": "Emotivna priča o hrabrosti."}
+        ],
+        "photo": "/assets/img/saving_private_ryan.jpg"
+    },
+    {
+        "id": 3,
+        "naziv": "Full metal jacket",
+        "opis": "A two-segment look at the effect of the military mindset and war itself on Vietnam era Marines. The first half follows a group of recruits in boot camp under the command of the punishing Gunnery Sergeant Hartman. The second half shows one of those recruits, Joker, covering the war as a correspondent for Stars and Stripes, focusing on the Tet offensive",
+        "zanr": "Action",
+        "trajanje": 116,
+        "reziser": "Stanley Kubrick",
+        "glumci": ["Mathew Modine", "R. Lee Ermey"],
+        "datumIzlaska": 1987,
+        "projekcije": [
+            {"datum": "2023-10-13T20:00:00Z", "cena": 1100, "status": ""}
+        ],
+        "recenzije": [
+            {"korisnik": "Korisnik 1", "ocena": 4, "komentar": "Snažan film o ratu."},
+            {"korisnik": "Korisnik 2", "ocena": 3, "komentar": "Nekoliko jakih scena, ali je spor."},
+            {"korisnik": "Korisnik 3", "ocena": 4, "komentar": "Odličan prikaz vojnog treninga."}
+        ],
+        "photo": "/assets/img/full_metal_jacket.jpg"
+    },
+    {
+        "id": 4,
+        "naziv": "Platoon",
+        "opis": "Chris Taylor is a young, naive American who gives up college and volunteers for combat in Vietnam. Upon arrival, he quickly discovers that his presence is quite nonessential, and is considered insignificant to the other soldiers, as he has not fought for as long as the rest of them and felt the effects of combat. Chris has two non-commissioned officers, the ill-tempered and indestructible Staff Sergeant Robert Barnes and the more pleasant and cooperative Sergeant Elias Grodin. A line is drawn between the two NCOs and a number of men in the platoon when an illegal killing occurs during a village raid. As the war continues, Chris himself draws towards psychological meltdown. And as he struggles for survival, he soon realizes he is fighting two battles, the conflict with the enemy and the conflict between the men within his platoon.",
+        "zanr": "War",
+        "trajanje": 120,
+        "reziser": "Oliver Stone",
+        "glumci": ["Charlie Sheen", "Tom Berenger"],
+        "datumIzlaska": 1986,
+        "projekcije": [
+            {"datum": "2023-10-14T22:00:00Z", "cena": 1500, "status": ""}
+        ],
+        "recenzije": [
+            {"korisnik": "Korisnik 1", "ocena": 5, "komentar": "Emotivna priča iz rata."},
+            {"korisnik": "Korisnik 2", "ocena": 4, "komentar": "Prikazuje stvarne sukobe."},
+            {"korisnik": "Korisnik 3", "ocena": 5, "komentar": "Izvanredno prikazivanje ljudske strane rata."}
+        ],
+        "photo": "/assets/img/platoon.jpg"
+    },
+    {
+        "id": 5,
+        "naziv": "Black hawk down",
+        "opis": "Action/war drama based on the best-selling book detailing a near-disastrous mission in Somalia on October 3, 1993. On this date nearly 100 U.S. Army Rangers, commanded by Capt. Mike Steele, were dropped by helicopter deep into the capital city of Mogadishu to capture two top lieutenants of a Somali warlord. This led to a large and drawn-out firefight between the Army Rangers, US Special Forces, and hundreds of Somali gunmen, resulting in the destruction of two U.S. Black Hawk helicopters. The film focuses on the heroic efforts of various Rangers to get to the downed helicopters, centering on SSG Eversmann, leading the Ranger unit Chalk Four to the first crash site, Chief Warrant Officer Durant who was captured after being the only survivor of the second crash, as well as many others who were involved.",
+        "zanr": "Drama",
+        "trajanje": 144,
+        "reziser": "Ridley Scott",
+        "glumci": ["Josh Hartnett", "Ewan McGregor"],
+        "datumIzlaska": 2001,
+        "projekcije": [
+            {"datum": "2023-10-15T19:00:00Z", "cena": 1300, "status": ""}
+        ],
+        "recenzije": [
+            {"korisnik": "Korisnik 1", "ocena": 5, "komentar": "Intenzivan i uzbudljiv film!"},
+            {"korisnik": "Korisnik 2", "ocena": 4, "komentar": "Snažan prikaz ratnog haosa."},
+            {"korisnik": "Korisnik 3", "ocena": 3, "komentar": "Dobar, ali nedostaje dubina likova."}
+        ],
+        "photo": "/assets/img/black_hawk_down.jpg"
+    },
+    {
+        "id": 6,
+        "naziv": "where eagles dare",
+        "opis": "During World War II, a British aircraft is shot down and crashes in Nazi held territory. The Germans capture the only survivor, American Brigadier General George Carnaby (Robert Beatty), and take him to the nearest S.S. headquarters. Unknown to the Germans, the General has full knowledge of the D-Day operation. The British decide that the General must not be allowed to divulge any details of the Normandy landing at all costs, and order Major Jonathan Smith (Richard Burton) to lead a crack commando team to rescue him. Amongst the team is an American Ranger, Lieutenant Morris Schaffer (Clint Eastwood), who is puzzled by his inclusion in an all British operation. When one of the team dies after the parachute drop, Schaffer suspects that Smith's mission has a much more secret objective.",
+        "zanr": "War",
+        "trajanje": 158,
+        "reziser": "Brian G. Hutton",
+        "glumci": ["Richard Burton", "Clint Eastwood"],
+        "datumIzlaska": 1968,
+        "projekcije": [
+            {"datum": "2023-10-16T21:00:00Z", "cena": 1000, "status": ""}
+        ],
+        "recenzije": [
+            {"korisnik": "Korisnik 1", "ocena": 4, "komentar": "Zabavna avantura."},
+            {"korisnik": "Korisnik 2", "ocena": 5, "komentar": "Klasik sa odličnim glumcima."},
+            {"korisnik": "Korisnik 3", "ocena": 3, "komentar": "Ponekad previše nategnuto."}
+        ],
+        "photo": "/assets/img/where_eagles_dare.jpg"
+    },
+    {
+        "id": 7,
+        "naziv": "The dirty dozen",
+        "opis": "A Major with an attitude problem and a history of getting things done is told to interview military prisoners with death sentences or long terms for a dangerous mission; To parachute behind enemy lines and cause havoc for the German Generals at a rest house on the eve of D-Day",
+        "zanr": "Action",
+        "trajanje": 150,
+        "reziser": "Robert Aldrich",
+        "glumci": ["Lee Marvin", "ernest Borgnine"],
+        "datumIzlaska": 1967,
+        "projekcije": [
+            {"datum": "2023-10-17T20:00:00Z", "cena": 1200, "status": ""}
+        ],
+        "recenzije": [
+            {"korisnik": "Korisnik 1", "ocena": 4, "komentar": "Odlična akcija i humor."},
+            {"korisnik": "Korisnik 2", "ocena": 5, "komentar": "Klasičan film o ratu."},
+            {"korisnik": "Korisnik 3", "ocena": 3, "komentar": "Sviđa mi se koncept, ali moglo je bolje."}
+        ],
+        "photo": "/assets/img/the_dirty_dozen.jpg"
+    },
+    {
+        "id": 8,
+        "naziv": "U-571",
+        "opis": "In the midst of World War II, the battle below the seas rages. The Nazis have the upper edge as the Allies are unable to crack their war codes. That is, until a wrecked U-boat sends out an SOS signal, and the Allies realize this is their chance to seize the 'enigma coding machine'. But masquerading as Nazis and taking over the U-boat is the smallest of their problems. The action really begins when they get stranded on the U-boat.",
+        "zanr": "Drama",
+        "trajanje": 116,
+        "reziser": "Jonathan Mostow",
+        "glumci": ["Harvey Kaitel", "Bill Paxton"],
+        "datumIzlaska": 2000,
+        "projekcije": [
+            {"datum": "2023-10-18T19:00:00Z", "cena": 1100, "status": ""}
+        ],
+        "recenzije": [
+            {"korisnik": "Korisnik 1", "ocena": 4, "komentar": "Napetost do samog kraja."},
+            {"korisnik": "Korisnik 2", "ocena": 5, "komentar": "Snažna priča i sjajni glumci."},
+            {"korisnik": "Korisnik 3", "ocena": 3, "komentar": "Interesantan, ali nedovoljno razvijen."}
+        ],
+        "photo": "/assets/img/u_571.jpg"
+    },
+    {
+        "id": 9,
+        "naziv": "MASH",
+        "opis": "The personnel at the 4077 MASH unit deal with the horrors of the Korean War and the stresses faced in surgery by whatever means. The tone at the MASH is established by recent arrivals: surgeons Captains Hawkeye Pierce, Duke Forrest, and Trapper John McIntyre--Hawkeye knows he's met Trapper somewhere, but Trapper won't divulge where--whose antics can best be described as non-regulation--and in the negative words of one of their fellow MASH-ers, unmilitary. The unit's commanding officer, Colonel Henry Blake, doesn't care about this behavior as long as it doesn't affect him, and as long as they do their job and do it well, which they do. Their behavior extremely bothers fellow surgeon Major Frank Burns and recently-arrived head nurse Major Margaret Houlihan, who obtains the nickname Hot Lips based on information they glean about her through underhanded means. Beyond their battles with Frank and Hot Lips, Hawkeye, Duke, and/or Trapper help unit dentist Painless with a personal crisis, try to figure out if Hot Lips is a true blonde, travel to Japan for a work and what they hope is a recreational trip, and hope to win big on a football bet against another unit in which they--on the surface--are the underdogs.",
+        "zanr": "War",
+        "trajanje": 116,
+        "reziser": "Robert Altman",
+        "glumci": ["Donald Suterland", "Elliott Gould"],
+        "datumIzlaska": 1970,
+        "projekcije": [
+            {"datum": "2023-10-19T22:00:00Z", "cena": 1500, "status": ""}
+        ],
+        "recenzije": [
+            {"korisnik": "Korisnik 1", "ocena": 4, "komentar": "Zabavna avantura."},
+            {"korisnik": "Korisnik 2", "ocena": 5, "komentar": "Klasik sa odličnim glumcima."},
+            {"korisnik": "Korisnik 3", "ocena": 3, "komentar": "Ponekad previše nategnuto."}
+        ],
+        "photo": "/assets/img/mash.jpg"
+    },
+    {
+        "id": 10,
+        "naziv": "Casablanca",
+        "opis": "The story of Rick Blaine, a cynical world-weary ex-patriate who runs a nightclub in Casablanca, Morocco during the early stages of WWII. Despite the pressure he constantly receives from the local authorities, Rick's cafe has become a kind of haven for refugees seeking to obtain illicit letters that will help them escape to America. But when Ilsa, a former lover of Rick's, and her husband, show up to his cafe one day, Rick faces a tough challenge which will bring up unforeseen complications, heartbreak and ultimately an excruciating decision to make.",
+        "zanr": "War",
+        "trajanje": 102,
+        "reziser": "Michael Curtiz",
+        "glumci": ["Humphrey Bogart", "Ingrid Bergman"],
+        "datumIzlaska": 1942,
+        "projekcije": [
+            {"datum": "2023-10-20T19:30:00Z", "cena": 1300, "status": ""}
+        ],
+        "recenzije": [
+            {"korisnik": "Korisnik 1", "ocena": 5, "komentar": "Emotivna priča iz rata."},
+            {"korisnik": "Korisnik 2", "ocena": 4, "komentar": "Prikazuje stvarne sukobe."},
+            {"korisnik": "Korisnik 3", "ocena": 5, "komentar": "Izvanredno prikazivanje ljudske strane rata."}
+        ],
+        "photo": "/assets/img/casablanca.jpg"
+    }
+]

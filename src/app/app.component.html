@@ -1,0 +1,20 @@
+<mat-toolbar color="primary">
+  <span><i class="fa-solid fa-film"></i>Kino 1. Maj</span>
+  <span class="spacer"></span>
+  <a routerLink="/" mat-button><i class="fa-solid fa-house"></i>Home</a>
+  <a routerLink="/search" mat-button><i class="fa-solid fa-magnifying-glass"></i> Pretraga</a>
+  <a routerLink="/cart" mat-button><i class="fa-solid fa-cart-shopping"></i> Korpa</a>
+  <a routerLink="/profile" mat-button *ngIf="userService.hasCurrentUser(); else log">
+    <i class="fa-regular fa-user"></i> Moj profil</a>
+</mat-toolbar>
+
+<router-outlet />
+
+<ng-template #log>
+  <a routerLink="/login" mat-button><i class="fa-solid fa-right-to-bracket"></i> Uloguj se</a>
+</ng-template>
+
+
+<div class="footer">
+  <p>&copy;Branislav Bizic 2022203462</p>
+</div>

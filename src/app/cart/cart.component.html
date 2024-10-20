@@ -1,0 +1,33 @@
+<mat-card class="smanji" appearance="outlined">
+  <h2>Korpa rezervacija</h2>
+  <table mat-table [dataSource]="dataSource" class="mat-elevation-z8">
+
+    <!-- Kolona za naziv filma -->
+    <ng-container matColumnDef="naziv">
+      <th mat-header-cell *matHeaderCellDef>Naziv Filma</th>
+      <td mat-cell *matCellDef="let booking">{{ booking.movie.naziv }}</td>
+    </ng-container>
+
+    <!-- Kolona za cenu -->
+    <ng-container matColumnDef="cena">
+      <th mat-header-cell *matHeaderCellDef>Cena</th>
+      <td mat-cell *matCellDef="let booking">{{ getTicketPrice(booking) }} RSD</td>
+    </ng-container>
+
+    <!-- Kolona za akcije -->
+    <ng-container matColumnDef="actions">
+      <th mat-header-cell *matHeaderCellDef>Akcije</th>
+      <td mat-cell *matCellDef="let booking">
+        <button mat-button (click)="remove(booking)"><i class="fa-regular fa-trash-can"></i> Obriši</button>
+      </td>
+    </ng-container>
+
+    <tr mat-header-row *matHeaderRowDef="displayedColumns"></tr>
+    <tr mat-row *matRowDef="let row; columns: displayedColumns;"></tr>
+  </table>
+
+  <h3>Ukupno: {{ getTotalPrice() }} RSD</h3>
+  <button mat-button color="primary" (click)="buy()">
+    <i class="fa-solid fa-ticket"></i> Kupi karte
+  </button>
+</mat-card>

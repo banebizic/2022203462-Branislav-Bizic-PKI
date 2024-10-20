@@ -1,0 +1,36 @@
+<div *ngIf="movies" class="container search-container">
+    <mat-card appearance="outlined" class="search-card">
+        <mat-card-content>
+            <h1 class="whiteText">Izaberite film</h1>
+            <form class="search-form">
+                <mat-form-field class="search-field">
+                    <mat-label>Izaberite film</mat-label>
+                    <mat-select disableRipple [(value)]="sNaziv">
+                        <mat-option value={{movie.naziv}} *ngFor="let movie of movies">{{movie.naziv}}</mat-option>
+                    </mat-select>
+                </mat-form-field>
+                <mat-form-field class="search-field">
+                    <mat-label>Izaberite zanr</mat-label>
+                    <mat-select disableRipple [(value)]="sZanr">
+                        <mat-option value={{zanr}} *ngFor="let zanr of dataService.getZanr()">{{zanr}}</mat-option>
+                    </mat-select>
+                </mat-form-field>
+                <mat-form-field class="search-field">
+                    <mat-label>Izaberite cenu</mat-label>
+                    <mat-select disableRipple [(value)]="sCena">
+                        <mat-option value={{cena}} *ngFor="let cena of dataService.getCena()">{{cena}}</mat-option>
+                    </mat-select>
+                </mat-form-field>
+            </form>
+        </mat-card-content>
+        <mat-card-actions>
+            <button mat-button type="button" (click)="doSearch()">
+                <i class="fa-solid fa-search"></i>
+                Potrazi film
+            </button>
+            <button mat-button type="button" (click)="resetPolja()">
+                <i class="fa-solid fa-ban"></i> Resetuj
+            </button>
+        </mat-card-actions>
+    </mat-card>
+</div>

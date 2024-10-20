@@ -1,0 +1,31 @@
+<div class="wrapper" *ngIf="movie">
+    <h1>{{movie.naziv}}</h1>
+    <div class="movieContent">
+        <mat-card class="movieCard" appearance="outlined">
+            <div class="innerCard">
+                <img mat-card-image src="{{movie.photo}}" alt="{{movie.naziv}}" class="movieImage">
+                <mat-card-content class="movieDetails">
+                    <mat-list role="list">
+                        <mat-list-item role="listitem">Zanr: {{movie.zanr}}</mat-list-item>
+                        <mat-list-item role="listitem">Trajanje: {{movie.trajanje}}</mat-list-item>
+                        <mat-list-item role="listitem">Datum izdavanja: {{movie.datumIzlaska}}</mat-list-item>
+                        <mat-list-item role="listitem">Reziser: {{movie.reziser}}</mat-list-item>
+                        <mat-list-item role="listitem">Glumci: {{movie.glumci.join(', ')}}</mat-list-item>
+                    </mat-list>
+                    <p>Radnja filma:</p>
+                    <p>{{movie.opis}}</p>
+                </mat-card-content>
+            </div>
+            <a mat-button (click)="reserveTicket(movie, movie!.projekcije[0])"><i class="fa-solid fa-cart-plus"></i>
+                Rezervisi
+                kartu</a>
+        </mat-card>
+        <mat-card class="komentar" appearance="outlined">
+            <h3>Komentari</h3>
+            <mat-list role="list">
+                <mat-list-item role="listitem" *ngFor="let kom of movie.recenzije">{{kom.korisnik}}:
+                    {{kom.komentar}}</mat-list-item>
+            </mat-list>
+        </mat-card>
+    </div>
+</div>

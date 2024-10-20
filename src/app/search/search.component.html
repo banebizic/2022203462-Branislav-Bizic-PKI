@@ -1,0 +1,57 @@
+<app-search-container (onSearch)="doSearch()" />
+<mat-card class="smanji" appearance="outlined">
+    <section class="example-container mat-elevation-z8" tabindex="0" *ngIf="dataSource">
+        <table mat-table [dataSource]="dataSource">
+
+            <!-- Position Column -->
+            <ng-container matColumnDef="position">
+                <th mat-header-cell *matHeaderCellDef> No. </th>
+                <td mat-cell *matCellDef="let element"> {{element.id}} </td>
+            </ng-container>
+
+            <!-- Name Column -->
+            <ng-container matColumnDef="name">
+                <th mat-header-cell *matHeaderCellDef> Naziv filma </th>
+                <td mat-cell *matCellDef="let element"> {{element.naziv}} </td>
+            </ng-container>
+
+            <!-- Weight Column -->
+            <ng-container matColumnDef="genre">
+                <th mat-header-cell *matHeaderCellDef> Zanr </th>
+                <td mat-cell *matCellDef="let element"> {{element.zanr}} </td>
+            </ng-container>
+
+            <!-- Symbol Column -->
+            <ng-container matColumnDef="price">
+                <th mat-header-cell *matHeaderCellDef> Cena </th>
+                <td mat-cell *matCellDef="let element"> {{element.projekcije[0].cena}} </td>
+            </ng-container>
+
+            <!-- Info Column -->
+            <ng-container matColumnDef="info">
+                <th mat-header-cell *matHeaderCellDef style="text-align: right;"> Info </th>
+                <td mat-cell *matCellDef="let element">
+                    <div class="baciDesno">
+                        <a mat-button routerLink="/movie/{{element.id}}"><i class="fa-solid fa-circle-info"></i>
+                            Info</a>
+                    </div>
+                </td>
+            </ng-container>
+
+            <!-- Book Column -->
+            <ng-container matColumnDef="book">
+                <th mat-header-cell *matHeaderCellDef style="text-align: right;"> Rezevisi kartu </th>
+                <td mat-cell *matCellDef="let element">
+                    <div class="baciDesno" *ngIf="element.projekcije.length > 0">
+                        <a mat-button (click)="reserveTicket(element, element.projekcije[0])">
+                            <i class="fa-solid fa-cart-plus"></i> Rezervisi kartu
+                        </a>
+                    </div>
+                </td>
+            </ng-container>
+
+            <tr mat-header-row *matHeaderRowDef="displayedColumns; sticky: true"></tr>
+            <tr mat-row *matRowDef="let row; columns: displayedColumns;"></tr>
+        </table>
+    </section>
+</mat-card>
